@@ -1,1 +1,5 @@
-# DecodeLab-ArtificialIntelligenceInternship-ChrisJerome
+Rule-Based Chatbot (simple_chatbot.py) A chatbot that responds to predefined inputs using if-else logic in a continuous loop. Concepts: Control flow, decision-making logic, basic AI concepts Features: Handles greetings (hi, hello, hey) Answers simple questions (name, how are you) Exits on command (bye, exit, quit, goodbye) Runs in a continuous loop until the user exits.
+
+Classification Model (classification_model.py) Trains a K-Nearest Neighbors classifier on the Iris flower dataset to predict species from measurements. Concepts: Data handling, supervised learning basics, model training Steps performed: Loads and previews the Iris dataset (150 samples, 4 features, 3 species) Splits data into 80% training / 20% testing sets Trains a KNN classifier (k=3) Evaluates accuracy and prints a classification report Runs a single sample prediction as a demo
+
+Recommendation System (recommendation_system.py) Recommends movies based on user-entered interests, using similarity scoring to rank matches. Concepts: Logic building, pattern matching, recommendation concepts How it works: You enter your interests as comma-separated tags (e.g. action, sci-fi) Each movie is scored using Jaccard similarity (shared tags ÷ total unique tags) The top 3 highest-scoring movies are displayed
